@@ -10,7 +10,7 @@ type ImageCardProps = {
   onImageClick: (url: string) => void;
 };
 
-const ImageCard: React.FC<ImageCardProps> = ({ id, description, urls, onImageClick }) => {
+const ImageCard: React.FC<ImageCardProps> = ({ description, urls, onImageClick }) => {
   return (
     <div className={css.galleryItem}>
       <img
