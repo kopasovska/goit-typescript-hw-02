@@ -1,0 +1,7 @@
+.galleryItem {
+  flex: 0 1 calc(33% - 16px);
+  max-width: calc(33% - 16px);
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 8px;
+}

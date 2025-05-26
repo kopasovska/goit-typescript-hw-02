@@ -1,0 +1,7 @@
+.modalImage {
+  max-width: 90vh;
+  max-height: 90vh;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
